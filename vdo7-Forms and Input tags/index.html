@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms - Sigma Batch Op</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="text">
+      <h1>Sigma Batch Registration Form</h1>
+    </div>
+    <div class="form">
+      <form action="post">
+        <div>
+          <label for="name"><b>Name</b></label>
+          <input
+            type="text"
+            id="name"
+            placeholder="Enter Your full name"
+            required
+            autofocus
+          />
+        </div>
+        <br />
+        <div>
+          <label for="gender"><b>What's ur gender</b></label>
+          <br />
+          <input type="radio" name="gender" value="male" />Male
+          <input type="radio" name="gender" value="female" />Female
+        </div>
+        <div>
+          <br />
+          <label for=""><b>Expectations</b></label>
+          <br />
+          <input type="checkbox" name="hrs" id="" />Flexible Work Hours
+          <input type="checkbox" name="culture" id="" />supportive Culture
+        </div>
+        <div>
+          <br />
+          <label for="cities"><b>Which City u belong to</b></label>
+          <br />
+          <select id="cities" name="cities">
+            <option value="Thane">Thane</option>
+            <option value="delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <b>Any Suggestion</b>
+          <br />
+          <textarea name="comment" rows="4" cols="50"> </textarea>
+        </div>
+        <br />
+        To Know More About Html Forms
+
+        <button>
+          <a target="_blank" href="https://www.codewithharry.com/tutorial/html-input-types/"
+            >Click</a
+          >
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
