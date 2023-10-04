@@ -1,0 +1,12 @@
+id :-
+1.Unique Indentifier of a HTML Element (it is a attribute of a element)
+2.To access it in the style sheet use "#id_name"
+3.One Element Can hve only one id
+4.Hidden Feature = in the url of the page if u add id at the end 
+it will direct on that particular heading of the page.
+
+Class:-
+1.Class means giving a property to multiple html elements (it is a attribute of a element)
+2.To access it in the style sheet use ".class_name"
+3.One element can Have Multiple Classes Seprated By "_blank_Spaces"
+4.Same Classes Can be used in multiple element for sharing the properties to it.

@@ -1,0 +1,16 @@
+.red{
+    background: red;
+}
+.bg-yellow{
+    color: yellow;
+}
+#FirstDiv{
+    text-align: center;
+    margin-bottom: 5px; 
+}
+#FirstSpan{
+    padding: 3px;
+}
+.grey{
+    background: grey;
+}
