@@ -1,0 +1,20 @@
+body{
+    background: rgb(189, 189, 189);
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color:rgb(176, 3, 3);
+}
+div{
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+}
+img{
+    border: 2px solid black;
+    border-radius: 50%;
+}
+video{
+    margin-left: 20px;
+}
