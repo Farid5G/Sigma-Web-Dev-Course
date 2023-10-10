@@ -1,0 +1,7 @@
+/* External css */
+p{
+    background: blueviolet;
+}
+p:hover{
+    background: goldenrod;
+}

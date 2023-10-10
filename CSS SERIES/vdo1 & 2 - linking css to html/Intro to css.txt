@@ -1,0 +1,16 @@
+css - cascading style sheet
+It is used to style the page using selector - (HTML elements) & properties of css
+
+syntax of css:-
+h1,div - (selector using comma u can select multiple elements)
+{
+    background: yellow;
+    color: red;
+}
+
+Three ways to add css to html page
+1. INLINE css :- using as attribute directly inside the element
+2. INTERNAL css :- using style tags mostly used when ur styling less
+3.EXTERNAL css :- to make production ready website u must use css in seprate
+file and link it to ur html page
+ link tag:- <link rel="stylesheet" href="style.css">
