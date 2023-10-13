@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" conten, initial-scale=1.0">
+    <meta name="description" content="All about different types of css Selector using which we can style HTML element">
+    <title>CSS - SELECTORS</title>
+    <style>
+        /* element selector */
+        h1{
+            text-align: center;
+        }
+        /* class selector */
+        .first{
+            color:red;
+            background: yellow;
+        }
+        /* id selector */
+        #second{
+            color:yellow;
+            background: red;
+        }
+        /* Universal selector */
+        *{
+            margin: 0;
+            padding: 0;
+            font-size: larger;
+        }
+        /* child selector :- works only when direct child of div */
+        div > p{
+            background: blueviolet;
+        }
+        /* decendent selector :- works everytime  */
+        div p{
+            background: blueviolet;
+        }
+        /* pseudo selector */
+        a:visited{
+            background: blueviolet;
+        }
+        a:link{
+            color: red;
+        }
+        a:hover{
+            background: yellow;
+        }
+        a:active{
+            color: black;
+        }
+        a:first-child{
+            background: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS SELECTORS</h1>
+    <div class="first">
+        I'm First class style using class selector
+
+        <article><p>I'm a child selector</p></article>
+        
+    </div>
+    <span id="second">
+        I'm span styled using id selector
+    </span>
+    <a href="https://www.google.com">Google.com</a>
+</body>
+</html>
