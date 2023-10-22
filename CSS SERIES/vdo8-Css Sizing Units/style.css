@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 16px;
+}
+.container{
+    width: 80vw;
+    box-sizing: border-box;
+    background: aqua;
+    border: 2px solid red;
+    color: black;
+    margin: auto;
+}
+.cont2{
+    width: 80vw;
+    box-sizing: border-box;
+    background: aqua;
+    border: 2px solid red;
+    color: black;
+    margin: 20px auto;
+    min-height: 80vh;
+    font-size: 1.5em;
+}
+.foot{
+    width: 80vw;
+    box-sizing: border-box;
+    background: aqua;
+    border: 2px solid red;
+    color: black;
+    margin: 20px auto;
+    font-size: 1.5rem;
+}
+#percentage{
+    width: 50%;
+    border: 3px solid purple;
+    margin: 20px auto;
+    font-size: 1.2rem;
+}
