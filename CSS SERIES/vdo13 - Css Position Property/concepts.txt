@@ -1,0 +1,6 @@
+Position:-
+1.Static - By default postion were you cannot set any properties
+2.Relative - Here You can set all the postion but on html document 
+3.Absolute -Here You can set all the postion but on nearest ancestor or parent document
+4.Fixed - Here You can set the all the postion and it will be fixed there
+5.Sticky - mainly used for navbar it will act as static till not scroll once scroll it will stick to the above 
