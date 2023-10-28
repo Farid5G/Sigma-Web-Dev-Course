@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Baloo Bhai 2', sans-serif;
+}
+
+:root {
+    --defpadd: 23px;
+    --color: rgb(245, 17, 245);
+    --seccolor: rgb(246, 159, 246);
+    --primcolor: orange;
+    --secprim: rgb(244, 203, 126);
+    --fontwght: 600;
+
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    padding: var(--defpadd);
+    font-weight: var(--fontwght);
+
+}
+
+.navbar {
+    background: var(--primcolor);
+}
+
+.container {
+    background: var(--secprim);
+    padding: var(--defpadd);
+}
+
+#orange {
+    background: rgba(255, 166, 0, 0.761);
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    font-weight: var(--fontwght);
+}
+
+#purple {
+    background: rgba(252, 142, 252, 0.876);
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    font-weight: var(--fontwght);
+}
+
+#orange:hover {
+    background: orange;
+}
+
+#purple:hover {
+    background: rgb(243, 83, 243);
+}
