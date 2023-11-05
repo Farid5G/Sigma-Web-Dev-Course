@@ -1,0 +1,104 @@
+body {
+    background: black;
+    overflow-x: hidden;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    position: relative;
+    top: 0px;
+    position: sticky;
+    z-index: 1;
+}
+
+.navbar {
+
+    background: violet;
+    height: 50px;
+
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+    margin: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(130, 4, 247);
+}
+
+.green {
+    /* position:absolute; */
+    background: rgb(47, 186, 47);
+    height: 600px;
+    margin: 10px;
+}
+
+.pink {
+    position: absolute;
+    background: blue;
+    height: 70%;
+    width: 40%;
+    top: 100px;
+    right: 100px;
+}
+
+.blue {
+    position: absolute;
+    background: pink;
+    height: 70%;
+    width: 40%;
+    top: 100px;
+    left: 100px;
+}
+
+.content {
+    margin: 20px;
+    border: 2px solid white;
+    height: 200px;
+    border-radius: 50px;
+}
+
+.text {
+    position: absolute;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 50px;
+    width: 100%;
+
+}
+
+.text p {
+    position: absolute;
+    top: 60px;
+    left: 200px;
+    color: white;
+}
+
+.white {
+    margin: 10px;
+    border: 2px solid white;
+    background: white;
+    height: 100px;
+    font-size: 20px;
+    font-weight: 600;
+    box-sizing: border-box;
+    padding-top: 30px;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    position: fixed;
+}
