@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=x, initial-scale=1.0">
+    <title>Css Transform</title>
+    <meta name="description" content="Used Css transform property for basic animations">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 100vw;
+            height:80vh;
+            border:5px solid purple;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            border:3px solid black;
+            background: bisque;
+        }
+        .box:hover{
+            /* transform:rotate(45deg);
+            transform:scale(1.5);
+            transform: skew(45deg); */
+            transform: translateX(100%) skew(45deg) scale(1.5) rotate(45deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            box
+        </div>
+    </div>
+</body>
+</html>
