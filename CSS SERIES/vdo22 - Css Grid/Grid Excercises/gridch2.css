@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Baloo Bhai 2', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 250px 650px;
+    grid-column-gap: 10px;
+    grid-template-rows: 100vh;
+}
+
+.item {
+    background: rgb(239, 207, 66);
+}
+
+.nav {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.header {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    display: grid;
+    background: white;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 15vh 70vh;
+    grid-gap: 10px;
+}
+
+.components {
+    background: rgb(239, 207, 66);
+}
+
+.headers {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.article {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.footer {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.styling {
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 550;
+}
